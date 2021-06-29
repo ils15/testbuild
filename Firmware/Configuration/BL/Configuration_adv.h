@@ -46,7 +46,7 @@
  * value is the number of errors which can occur in a row before the error
  * is reported.  This allows us to ignore intermittent error conditions while
  * still detecting an actual failure, which should result in a continuous
- * stream of errors from the sensor.
+ * stream of errors from the sensor..
  *
  * Set this value to 0 to fail on the first error to occur.
  */
