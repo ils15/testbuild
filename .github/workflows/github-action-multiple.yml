@@ -6,7 +6,7 @@ name: Build Marlin Firmware
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'Firmware/Configuration/BlueR/**.h'
 
