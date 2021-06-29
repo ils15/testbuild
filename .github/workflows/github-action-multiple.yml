@@ -28,7 +28,7 @@ jobs:
             -e BOARD \
             -v $(pwd)/Firmware/Builds/BlueR:/home/platformio/build \
             -v $(pwd)/Firmware/Configuration/BlueR:/home/platformio/CustomConfiguration \
-            ils15/testbuild:main
+            frealmyr/marlin-build:latest
 
       - name: Push firmware
         run: |
