@@ -15,7 +15,7 @@ jobs:
     name: Build and push firmware
     runs-on: ubuntu-latest
     env:
-      BOARD: mks_robin_nano35
+      BOARD: STM32F103RET6_creality
 
     steps:
       - name: Check out repo
