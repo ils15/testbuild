@@ -32,7 +32,7 @@
  *
  * Basic settings such as:
  *
- * - Type of electronics.
+ * - Type of electronics..
  * - Type of temperature sensor
  * - Printer geometry
  * - Endstop configuration
