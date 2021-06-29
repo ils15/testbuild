@@ -30,7 +30,7 @@
 /**
  * Configuration.h
  *
- * Basic settings such as::
+ * Basic settings such as:
  *
  * - Type of electronics
  * - Type of temperature sensor
