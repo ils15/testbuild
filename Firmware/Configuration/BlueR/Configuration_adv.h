@@ -26,7 +26,7 @@
 /**
  * Configuration_adv.h
  *
- * Advanced settings
+ * Advanced settings...
  * Only change these if you know exactly what you're doing.
  * Some of these settings can damage your printer if improperly set!
  *
