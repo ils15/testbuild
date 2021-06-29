@@ -8,14 +8,14 @@ on:
     branches:
       - master
     paths:
-      - 'Firmware/Configuration/Example1/**.h'
+      - 'Firmware/Configuration/BlueR/**.h'
 
 jobs:
   build_and_push:
     name: Build and push firmware
     runs-on: ubuntu-latest
     env:
-      BOARD: STM32F103RC_btt_512K
+      BOARD: mks_robin_nano35
 
     steps:
       - name: Check out repo
@@ -26,8 +26,8 @@ jobs:
           docker run \
             -u root:root \
             -e BOARD \
-            -v $(pwd)/Firmware/Builds/Example1:/home/platformio/build \
-            -v $(pwd)/Firmware/Configuration/Example1:/home/platformio/CustomConfiguration \
+            -v $(pwd)/Firmware/Builds/BlueR:/home/platformio/build \
+            -v $(pwd)/Firmware/Configuration/BlueR:/home/platformio/CustomConfiguration \
             frealmyr/marlin-build:latest
 
       - name: Push firmware
