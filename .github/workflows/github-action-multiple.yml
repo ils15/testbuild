@@ -15,7 +15,7 @@ jobs:
     name: Build and push firmware
     runs-on: ubuntu-latest
     env:
-      BOARD: STM32F103RET6_creality
+      BOARD: LPC1768
 
     steps:
       - name: Check out repo
