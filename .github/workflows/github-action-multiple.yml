@@ -15,7 +15,7 @@ jobs:
     name: Build and push firmware
     runs-on: ubuntu-latest
     env:
-      BOARD: mks_robin_nano35_stm32
+      BOARD: mks_robin_nano35
 
     steps:
       - name: Check out repo
