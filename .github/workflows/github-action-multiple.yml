@@ -26,6 +26,7 @@ jobs:
           docker run \
             -u root:root \
             -e BOARD \
+            -e USE_LATEST = True \
             -v $(pwd)/Firmware/Builds/BlueR:/home/platformio/build \
             -v $(pwd)/Firmware/Configuration/BlueR:/home/platformio/CustomConfiguration \
             frealmyr/marlin-build:latest
